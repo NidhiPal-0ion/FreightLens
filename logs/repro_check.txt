@@ -1,0 +1,15 @@
+Reproducibility check: 3 independent runs (fresh process each) on the same input.
+Input: C:\Users\nidhi\OneDrive\Documents\freight-cost-assistant\data
+
+results.csv: IDENTICAL across all 3 runs
+  run1 sha256 3348a6d03280173cfe94fa3bad7a75c5a792827e4b8b5e9698ba02705984617e
+  run2 sha256 3348a6d03280173cfe94fa3bad7a75c5a792827e4b8b5e9698ba02705984617e
+  run3 sha256 3348a6d03280173cfe94fa3bad7a75c5a792827e4b8b5e9698ba02705984617e
+weekly_metrics.csv: IDENTICAL across all 3 runs
+  run1 sha256 ad7cb0dfe01a98fb58770625da7ffe0f2ddd0309fd6039d276f9c25fb8744ac1
+  run2 sha256 ad7cb0dfe01a98fb58770625da7ffe0f2ddd0309fd6039d276f9c25fb8744ac1
+  run3 sha256 ad7cb0dfe01a98fb58770625da7ffe0f2ddd0309fd6039d276f9c25fb8744ac1
+
+Submitted outputs/results.csv matches the runs: yes
+
+RESULT: PASS - flags, numbers, cited notes and wording are all identical.
